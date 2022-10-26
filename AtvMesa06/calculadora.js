@@ -64,6 +64,8 @@ console.log(calculaPorcentagem(300, 15).toFixed(2))
 
 //======================================
 
-function geradorDePorcentagem (a, b) {
-    
+function geradorDePorcentagem(a , b) {
+    const res = divisao((multiplicacao(a, 100)), b);
+    return res;    
 }
+console.log(geradorDePorcentagem(2, 200).toFixed(2));
