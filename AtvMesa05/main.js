@@ -17,10 +17,11 @@ console.log("================================================")
 Crie uma função que receba uma string e a converta em um URL.
 ex: "funcaojs" é retornado como "http://www.funcaojs.com.br"
 */
-function stringURL(str) {
-    
+function stringToUrl(str)  {
+    return `http://www.${str}.com.br`
 }
-console.log("Função para conversao de string em andamento")
+
+console.log(stringToUrl("google"))
 
 console.log("================================================")
 
