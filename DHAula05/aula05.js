@@ -61,9 +61,23 @@ console.log(calcular)
 
 //console.log(SomarReturn(30, 50))
 
-
+/*
 const soma1 = (a, b) => {
     return a + b
 }
 
 const soma2 = (a, b) => a + b
+
+// Express Function
+const soma1 = function(valor1, valor2) {
+    return valor1 + valor2;
+  }
+  
+  // Arrow Function
+  const soma2 = (valor1, valor2) => {
+    return valor1 + valor2;
+  }
+  
+  // Arrow Function
+  const soma3 = (valor1, valor2) => valor1 + valor2;
+  */
