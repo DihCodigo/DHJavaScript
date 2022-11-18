@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    height: 30px;
+    margin-top: 30px;
+}
+header ul {
+    display: flex;
+    gap: 30px;
+    width: 100vw;
+    margin-left: 80%;
+}
+header ul li {
+    list-style: none;
+}
+header a {
+    text-decoration: none;
+}
+
+h1{
+    color: skyblue;
+    font-size: 6rem;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 40vw;
+    border-radius: 30px;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    border: 0.5px solid #ccc ;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 7px 30px;
+    border: none;
+    border-radius: 30px;
+
+}
+
+main p {
+    font-size: 0.8rem;
+    color: blue;
+    margin-top: 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 230px;
+    gap: 30px;
+    padding: 20px;
+    background-color: #F8F9F9;
+    color: #696969;
+}
+
+footer p {
+    border-bottom: 1px solid #696969;
+    width: 100vw;
+    padding: 10px 20px;
+}
+footer .menu {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    width: 100%;    
+}
+
+footer .menu ul {
+    display: flex;
+    gap: 30px;
+}
+
+footer .menu ul li {
+    list-style: none;
+}
+
+footer .menu ul li a{
+    text-decoration: none;
+    color: #696969;
+}
