@@ -10,7 +10,12 @@
 
 <body>
     <div class="bloco">
+        <label for="">Numero</label>
+        <input type="number" id="num">  
         
+        <label for="">Elevado</label>
+        <input type="number" id="elev">
+
         <button onclick="calcular()">Calcular</button>
 
     </div>
@@ -18,6 +23,19 @@
 <script src="./js/teste.js"></script>
 <style>
     
+    .bloco{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 50px;
+    }
+    input {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
     button {
         border: none;
         color: white;
