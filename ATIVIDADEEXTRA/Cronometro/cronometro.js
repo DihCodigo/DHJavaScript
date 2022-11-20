@@ -14,7 +14,7 @@ function twoDigits(digit){
 }
 
 function start() {
-    intervail = setInterval(counter, 1)
+    intervail = setInterval(counter, 1000)
 }
 
 function pausar() {
