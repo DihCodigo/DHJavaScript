@@ -1,0 +1,47 @@
+.container {
+    width: 400px;
+    margin: 50px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5rem;
+    letter-spacing: 6px;
+}
+
+.btn_group{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_iniciar {
+    padding: 10px 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.btn_pausar {
+    padding: 10px 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+
+}
+.btn_resetar {
+    padding: 10px 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
