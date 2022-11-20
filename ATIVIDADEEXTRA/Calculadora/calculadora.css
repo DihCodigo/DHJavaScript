@@ -21,12 +21,11 @@ body {
     margin: 20px auto;
 
     border: none;
-    outline: none;
     color: black;
     text-align: right;
     font-weight: 600;
     padding: 25px;
-    margin: 30px 0px;
+    margin: 10px 0px;
     background: transparent;
     
     /* Inset shadow gives the appearance that 
