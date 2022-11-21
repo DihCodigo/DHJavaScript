@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "nome": "Rodrigo",
+            "ativo": true,
+            "modulosInscrito": [
+                "Introdução a informática",
+                "Programação imperativa",
+                "Banco de dados"
+            ],
+            "valorParcela": 500
+        },
+        {
+            "nome": "Maria",
+            "ativo": false,
+            "modulosInscrito": [
+                "Introdução a informática",
+                "Programação imperativa",
+                "Banco de dados"
+            ],
+            "valorParcela": 300
+        }
+    ]
+}
+
