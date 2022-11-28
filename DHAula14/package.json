@@ -1,0 +1,20 @@
+{
+  "name": "dhaula14",
+  "version": "1.0.0",
+  "description": "DhAula14 Digital House Node.js",
+  "main": "aula14.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aula14",
+    "nodejs",
+    "digital-house",
+    "dh"
+  ],
+  "author": "César Diego Anovich",
+  "license": "ISC",
+  "dependencies": {
+    "odd-even": "^1.0.0"
+  }
+}
