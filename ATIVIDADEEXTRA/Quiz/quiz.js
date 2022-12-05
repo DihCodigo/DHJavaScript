@@ -1,4 +1,6 @@
-let r = 10;
-if(!r){
-    console.log(r);
-}
+let resultado = 0
+
+resultado = 4 / 2 * 3 + 5 / 3
+
+
+console.log(resultado)
