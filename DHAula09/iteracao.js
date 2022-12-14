@@ -1,7 +1,7 @@
 const numeros = [10, 20, 19, 10, 15, 20, 21, 30, 100, 30, 20];
 const textos = ['dez', 'vinte', 'trinta'];
 
-// numeros.forEach((item) => console.log(item));
+numeros.forEach((item) => console.log(item));
 
 let busca = 0;
 
